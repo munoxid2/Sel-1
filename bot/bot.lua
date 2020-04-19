@@ -23,7 +23,7 @@ plugins = {}
 function do_notify (user, msg)
 	local n = notify.Notification.new(user, msg)
 	n:show ()
-end
+en
 
 function dl_cb (arg, data)
 	-- vardump(data)
